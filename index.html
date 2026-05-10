@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Protocolos HTTP - Exemplo Simples</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- FORMULÁRIO -->
+        <div class="card">
+            <h2>📝 Enviar Dados (POST)</h2>
+            
+            <input type="text" id="titulo" placeholder="Título">
+            <textarea id="conteudo" placeholder="Conteúdo"></textarea>
+            
+            <button id="btnPost">📤 ENVIAR (POST)</button>
+            <button id="btnGet">🔄 BUSCAR (GET)</button>
+            <button id="btnLimpar">🗑️ LIMPAR LOG</button>
+        </div>
+
+        <!-- LOG DAS REQUISIÇÕES -->
+        <div class="card">
+            <h2>📡 Monitor HTTP</h2>
+            <div id="log"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
